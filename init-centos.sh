@@ -1,6 +1,7 @@
 #!/bin/bash
 
 yum install -y autoconf make cmake gcc gcc-c++ openssh-clients rsync wget man gdb sysstat unzip vim git puppet
+yum install -y python python-devel bzip2-devel sqlite-devel
 
 rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
 rpm -Uvh http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
